@@ -1,0 +1,19 @@
+# Create a virtual environment
+python3 -m venv venv
+
+# Navigate to virtual environment 
+source venv/bin/activate
+
+# Install libraries in the requirements file
+pip install -r .\requirements.txt   OR
+pip install langchain langchain-ollama langchain-chroma 
+
+# Download and install ollama 
+
+# Type in the following in the terminal
+ollama run llama3.2
+ollama
+
+# Pull two ollama models from the ollama directory
+ollama pull llama3.2 # Pulls the ollama model llama3.2
+ollama pull mxbai-embed-large  # pulls the embedding model 
