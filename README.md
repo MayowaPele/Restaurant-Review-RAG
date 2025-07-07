@@ -26,6 +26,7 @@ This project is an AI-powered assistant designed to answer questions about a piz
 ├── main.py                           # Runs the interactive chatbot
 ├── chroma_langchain_db/              # Auto-generated vector DB (on first run)
 ├── README.md                         # This file
+├── requirements.txt                  # Contains the required python langchain libraries
 ```
 
 ## Requirements
@@ -36,6 +37,10 @@ This project is an AI-powered assistant designed to answer questions about a piz
 
 ## Python Dependencies
 Install the required Python libraries:
+
+```pip install requirements.txt``` 
+
+OR 
 
 ```pip install langchain-core langchain-ollama langchain-chroma pandas```
 
